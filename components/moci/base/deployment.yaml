@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: moci
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-yxsy-tenant/byoc-app-oxce/moci@sha256:17a567a7e997504f59e5ad7f71ab7a6ee7f45f266a1004114d922d5bff5d02a5
         name: my-java-quarkus
         ports:
         - containerPort: 8081
